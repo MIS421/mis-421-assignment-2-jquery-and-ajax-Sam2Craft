@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "iWzP75qrNXX2xnPuqisrKz11Y+YMUjvpKMZbYPAbo5c=",
+  "Hash": "ca/pdm2iMObauJiT54YSQvUEa64o6eDBiWXK5n0jIq8=",
   "Source": "SearchEngineHW",
   "BasePath": "_content/SearchEngineHW",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\16159\\OneDrive\\Desktop\\srmabry-521-assignment2\\SearchEngineHW\\SearchEngineHW\\wwwroot\\index.html",
+      "SourceId": "SearchEngineHW",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\16159\\OneDrive\\Desktop\\srmabry-521-assignment2\\SearchEngineHW\\SearchEngineHW\\wwwroot\\",
+      "BasePath": "_content/SearchEngineHW",
+      "RelativePath": "index.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
       "Identity": "C:\\Users\\16159\\OneDrive\\Desktop\\srmabry-521-assignment2\\SearchEngineHW\\SearchEngineHW\\wwwroot\\js\\site.js",

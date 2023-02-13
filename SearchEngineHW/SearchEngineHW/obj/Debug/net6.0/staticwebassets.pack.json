@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\16159\\OneDrive\\Desktop\\srmabry-521-assignment2\\SearchEngineHW\\SearchEngineHW\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
       "Id": "C:\\Users\\16159\\OneDrive\\Desktop\\srmabry-521-assignment2\\SearchEngineHW\\SearchEngineHW\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
