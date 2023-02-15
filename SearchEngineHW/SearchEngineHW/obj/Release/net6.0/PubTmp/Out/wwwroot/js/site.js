@@ -5,15 +5,12 @@ var toggle = false;
 $("button").button();
 
 function apiSearch() {
-
-        var params = {
-            "q": $("#query").val(),
-            "count": "50",
-            "offset": "0",
-            "mkt": "en-us"
-            }
-    
-
+    var params = {
+        "q": $("#query").val(),
+        "count": "50",
+        "offset": "0",
+        "mkt": "en-us"
+    }
 
     $.ajax({
         url: "https://api.bing.microsoft.com/v7.0/search?" + $.param(params),
@@ -80,5 +77,4 @@ function feelingLucky() {
         .fail(function () {
             alert("error");
         });
-
 }
