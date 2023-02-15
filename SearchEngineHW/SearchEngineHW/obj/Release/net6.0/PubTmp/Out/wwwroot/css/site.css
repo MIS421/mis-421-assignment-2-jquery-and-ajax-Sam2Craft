@@ -1,18 +1,128 @@
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 @media (min-width: 768px) {
-  html {
-    font-size: 16px;
-  }
+    html {
+        font-size: 16px;
+    }
 }
 
 html {
-  position: relative;
-  min-height: 100%;
+    position: relative;
+    min-height: 100%;
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+}
+
+.backgroundOne {
+    background: url("https://uploads-ssl.webflow.com/61defec4a021d8fe954c11bd/61defec4a021d8f4394c120b_bananas.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.backgroundTwo {
+    background: url("https://i.pinimg.com/originals/15/cb/72/15cb72f7530d6ba8e881ac54836f292f.gif") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+
+
+.hidden{
+    visibility:hidden;
+}
+
+.visible{
+    visibility:visible;
+}
+
+
+.myButton {
+    box-shadow: 0px 1px 0px 0px #fff6af;
+    background: linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+    background-color: #ffec64;
+    border-radius: 6px;
+    border: 1px solid #ffaa22;
+    display: inline-block;
+    cursor: pointer;
+    color: #333333;
+    font-family: Arial;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 6px 24px;
+    text-decoration: none;
+    text-shadow: 0px 1px 0px #ffee66;
+    font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+.myButton:hover {
+    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+    background-color: #ffab23;
+}
+
+.myButton:active {
+    position: relative;
+    top: 1px;
+}
+
+.myInput {
+    padding: 5px;
+    font-size: 16px;
+    border-width: 1px;
+    border-color: #fff600;
+    background-color: #f5f8a6;
+    color: #000000;
+    border-style: solid;
+    border-radius: 0px;
+    box-shadow: 0px 0px 10px rgba(201,163,56,.75);
+    text-shadow: 0px 0px 1px rgba(66,66,66,.75);
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    width:50%;
+}
+
+.myInput:focus{
+outline:none;
+}
+
+#banner {
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 50px;
+    letter-spacing: -1.2px;
+    word-spacing: 2px;
+    color: #fff;
+    -webkit-animation: glow 1s ease-in-out infinite alternate;
+    -moz-animation: glow 1s ease-in-out infinite alternate;
+    animation: glow 1s ease-in-out infinite alternate;
+    font-weight: 700;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: small-caps;
+    text-transform: none;
+    text-shadow: rgba(255,251,0,0.86) 0px 0px 35px;
+}
+
+@-webkit-keyframes glow {
+    from {
+        text-shadow: 0 0 10px #fff, 0 0 20px #E5E827, 0 0 30px #E5E827, 0 0 40px #E5E827, 0 0 50px #E5E827, 0 0 60px #E5E827, 0 0 70px #E5E827;
+    }
+
+    to {
+        text-shadow: 0 0 20px #fff, 0 0 30px #FFDD1E, 0 0 40px #FFDD1E, 0 0 50px #FFDD1E, 0 0 60px #FFDD1E, 0 0 70px #FFDD1E, 0 0 80px #FFDD1E;
+    }
+}
+
+#main_container{
+    padding-top:15%;
+    text-align:center;
+}
+
+#search_container{
+    padding-top:3%;
 }

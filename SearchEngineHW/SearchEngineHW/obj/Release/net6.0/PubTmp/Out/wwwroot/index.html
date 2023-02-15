@@ -4,29 +4,28 @@
 
 <head>
 
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/site.css" />
     <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/themes/smoothness/jquery-ui.css" integrity="sha384-s5lqL1NMu1TdDS/75EsR2IKqj5g2SbplE63nRqwT70/kcm2uFLqKGOCp1phJ2ENd" crossorigin="anonymous">
-    <title>Search Engine Name</title>
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/themes/sunny/theme.min.css" integrity="sha384-dkbC1wcm/qe5SDGSC54qnYv/ClgvDNTo8cJ9HK367ILkXRPH4CGHZdbwLe1YjMHm" crossorigin="anonymous">
 </head>
 
-<body>
+<body class="backgroundOne">
 
-    <h1> Search Engine Name</h1>
-    <input id="query" type="text" />
-    <button value="Search" type="submit">Search</button>
-    <button>Current Time</button>
-    <div id="searchResult"></div>
-    <div id="time"></div>
-
-
-
-    <script type="text/javascript" src="./script.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha384-Ft/vb48LwsAEtgltj7o+6vtS2esTU9PCpDqcXs4OCVQFZu5BqprHtUCZ4kjK+bpE" crossorigin="anonymous"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js" integrity="sha384-4D3G3GikQs6hLlLZGdz5wLFzuqE9v4yVGAcOH86y23JqBDPzj9viv0EqyfIa6YUL" crossorigin="anonymous"></script>
-
-
-
+    <script type="text/javascript" src="./js/site.js"></script>
+    <div id="main_container">
+        <div onclick="toggleBackground()" id="engineName">
+            <h1 id="banner"> Bannana Browser</h1>
+        </div>
+        <div id="search_container">
+            <input class="myInput" id="query" type="text" />
+            <button class="myButton" value="Search" type="submit" id="searchButton" onclick="apiSearch()">Search</button>
+            <button class="myButton" onclick="showTime()">Current Time</button>
+        </div>
+    </div>
+    <div id="searchResults" title="Search Results:"></div>
+    <div id="time" title="Current Time:">
+    </div>
 </body>
-
 </html>
