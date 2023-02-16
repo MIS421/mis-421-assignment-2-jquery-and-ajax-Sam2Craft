@@ -2,7 +2,21 @@
 var results = '';
 var toggle = false;
 
-$("button").button();
+searchWeb();
+luckySearch();
+displayTime();
+
+function searchWeb() {
+    $("#searchButton").click(apiSearch);
+}
+
+function luckySearch() {
+    $("#luckyButton").click(feelingLucky);
+}
+
+function displayTime() {
+    $("#timeButton").click(showTime);
+}
 
 function apiSearch() {
     var params = {

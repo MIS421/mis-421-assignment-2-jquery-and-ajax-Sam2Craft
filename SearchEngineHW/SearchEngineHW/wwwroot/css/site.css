@@ -33,16 +33,13 @@ body {
     background-size: cover;
 }
 
-
-
-.hidden{
-    visibility:hidden;
+.hidden {
+    visibility: hidden;
 }
 
-.visible{
-    visibility:visible;
+.visible {
+    visibility: visible;
 }
-
 
 .myButton {
     box-shadow: 0px 1px 0px 0px #fff6af;
@@ -62,15 +59,15 @@ body {
     font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-.myButton:hover {
-    background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
-    background-color: #ffab23;
-}
+    .myButton:hover {
+        background: linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+        background-color: #ffab23;
+    }
 
-.myButton:active {
-    position: relative;
-    top: 1px;
-}
+    .myButton:active {
+        position: relative;
+        top: 1px;
+    }
 
 .myInput {
     padding: 5px;
@@ -84,12 +81,12 @@ body {
     box-shadow: 0px 0px 10px rgba(201,163,56,.75);
     text-shadow: 0px 0px 1px rgba(66,66,66,.75);
     font-family: "Comic Sans MS", cursive, sans-serif;
-    width:50%;
+    width: 50%;
 }
 
-.myInput:focus{
-outline:none;
-}
+    .myInput:focus {
+        outline: none;
+    }
 
 #banner {
     font-family: "Comic Sans MS", cursive, sans-serif;
@@ -118,11 +115,11 @@ outline:none;
     }
 }
 
-#main_container{
-    padding-top:15%;
-    text-align:center;
+#main_container {
+    padding-top: 15%;
+    text-align: center;
 }
 
-#search_container{
-    padding-top:3%;
+#search_container {
+    padding-top: 3%;
 }
